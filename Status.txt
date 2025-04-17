@@ -1,2 +1,11 @@
 understand dfference between Link and NAvlink in Router DOM
 Learn about breadcrumbs and implement here (in chatGPT it is in Dynamic Routing in React)
+
+
+18-04
+
+Logic working fine on page naviagtion 
+need to fix welcome message for all page
+read omniway  and fix the AnimalDescription on only home & animal , on final page create seperate component without Curious to know more button
+
+
