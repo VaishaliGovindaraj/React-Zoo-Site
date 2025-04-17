@@ -1,0 +1,2 @@
+understand dfference between Link and NAvlink in Router DOM
+Learn about breadcrumbs and implement here (in chatGPT it is in Dynamic Routing in React)

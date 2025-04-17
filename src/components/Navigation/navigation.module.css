@@ -1,0 +1,9 @@
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuItem{
+    text-decoration: none;
+    color:blueviolet;
+}

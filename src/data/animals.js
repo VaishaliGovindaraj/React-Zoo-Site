@@ -61,7 +61,7 @@ let birdArray = [birdCassowary,birdKookaburra,birdYellowTailedBlackCockatoo];
 
 let animalArray = [...mammalArray, ...reptileArray, ...birdArray];
 
-export const groupNames = [... new Set(animalArray.map(item => item.groupName))];
+export const groupNames = [... new Set(animalArray.map(item => item.groupName))]
 console.log(groupNames)
 
 export {animalArray, mammalArray, reptileArray, birdArray};
