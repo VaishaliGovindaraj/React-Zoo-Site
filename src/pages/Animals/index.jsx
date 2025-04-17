@@ -18,6 +18,7 @@ const Animal = () => {
         {animals.map(animal => (
           <li key={animal}>
              <Link to={`/${animalType}/${animal}`}>{animal}</Link>
+             <div>chnage this</div>
           </li>
         ))}
       </ul>
