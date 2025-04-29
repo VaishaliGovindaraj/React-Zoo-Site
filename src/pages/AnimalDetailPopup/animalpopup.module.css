@@ -4,11 +4,39 @@
   color: rgb(202, 184, 184);
   font-weight: bold;
   width: 100%;
+  position: absolute;
+  left:0;
+  top:80px;
   display: flex;
   flex-direction: column;
   padding: 16px;
-  height: 70vh;
+  height: 60vh;
   font-size:1.25rem;
+  flex-grow: 1;
+}
+
+.animal_image{
+  height: auto;
+  width: 150px;
+}
+
+.popup_header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+}
+
+.food{
+  display: flex;
+}
+
+.popup_description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
 }
 
 .button {
@@ -25,6 +53,7 @@
   transition: all 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   max-width: fit-content;
+  height:max-content;
 }
 
 .button:hover {

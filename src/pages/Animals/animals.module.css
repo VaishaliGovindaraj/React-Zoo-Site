@@ -1,9 +1,5 @@
 .animal_div{
     flex-grow: 1;
-    background-image: url("../../assets/zoo_bg_2.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

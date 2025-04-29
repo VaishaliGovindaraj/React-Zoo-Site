@@ -30,7 +30,7 @@ const AnimalDescription = ({ displayContent, expanded, popup }) => {
           <button className={`${styles.custom_btn} ${styles.button}`} onClick={popup}>Read More</button>
 
           {displayContent.description.length > 200 && !isDetailPage && location.pathname === "/" && (
-            <div className={`${styles.description} ${styles.link}` }> <strong>Visit Group</strong> <NavLink to={`/${displayContent.groupName.toLowerCase()}`}> Visit Mammals Page</NavLink> </div>
+            <div className={`${styles.description} ${styles.link}` }> <NavLink to={`/${displayContent.groupName.toLowerCase()}`}> Visit <strong>{displayContent.groupName.toUpperCase()}</strong> Page</NavLink> </div>
           )}
         </div>
       </div>

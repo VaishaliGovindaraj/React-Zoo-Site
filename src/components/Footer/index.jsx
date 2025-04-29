@@ -1,4 +1,5 @@
 import styles from './footer.module.css'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -13,9 +14,9 @@ const Footer = () => {
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/mammals">Mammals</a></li>
-                        <li><a href="/birds">Birds</a></li>
-                        <li><a href="/reptiles">Reptiles</a></li>
+                        <li><NavLink to={`/mammals`}> Mammals </NavLink></li>
+                        <li><NavLink to={`/reptiles`}> Reptiles </NavLink></li>
+                        <li><NavLink to={`/birds`}> Birds </NavLink></li>
                     </ul>
                 </div>
 

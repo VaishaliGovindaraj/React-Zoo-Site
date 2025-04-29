@@ -48,6 +48,8 @@
 
 .link a{
   color: beige;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .button{
