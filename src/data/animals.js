@@ -36,7 +36,7 @@ let reptileHawksbillTurtle = new Animals("Reptiles","Hawksbill Turtle", 50,["spo
 
     
 let reptilePerentie  = new Animals("Reptiles","Perentie", 20,["Carnivore", "animals like kangaroos", "rabbits", "lizards and birds"], 
-    ": The perentie (Varanus giganteus) is the largest monitor lizard or goanna native to Australia. It is one of the largest living lizards on earth, after the Komodo dragon, Asian water monitor, crocodile monitor, and intersecting by size with Nile monitor.[3] Found west of the Great Dividing Range in the arid areas of Australia, it is rarely seen, because of its shyness and the remoteness of much of its range from human habitation. The species is considered to be a least-concern species according to the International Union for Conservation of Nature. Its status in many Aboriginal cultures is evident in the totemic relationships, and part of the Ngiṉṯaka dreaming, as well as bush tucker. It was a favoured food item among desert Aboriginal tribes, and the fat was used for medicinal and ceremonial purposes.",
+    "The perentie (Varanus giganteus) is the largest monitor lizard or goanna native to Australia. It is one of the largest living lizards on earth, after the Komodo dragon, Asian water monitor, crocodile monitor, and intersecting by size with Nile monitor.[3] Found west of the Great Dividing Range in the arid areas of Australia, it is rarely seen, because of its shyness and the remoteness of much of its range from human habitation. The species is considered to be a least-concern species according to the International Union for Conservation of Nature. Its status in many Aboriginal cultures is evident in the totemic relationships, and part of the Ngiṉṯaka dreaming, as well as bush tucker. It was a favoured food item among desert Aboriginal tribes, and the fat was used for medicinal and ceremonial purposes.",
     250,20,"Desert",  "./images/perentie.jpg", 'Reptiles', './html/reptiles.html');
     
 let birdCassowary = new Animals("Birds","Cassowary", 20,["Plants matter like fruit", "insects and small animals like mice amd lizards"], 
@@ -62,6 +62,5 @@ let birdArray = [birdCassowary,birdKookaburra,birdYellowTailedBlackCockatoo];
 let animalArray = [...mammalArray, ...reptileArray, ...birdArray];
 
 export const groupNames = [... new Set(animalArray.map(item => item.groupName))]
-console.log(groupNames)
 
 export {animalArray, mammalArray, reptileArray, birdArray};

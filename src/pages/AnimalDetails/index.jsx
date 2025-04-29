@@ -12,7 +12,7 @@ const AnimalDetails = () => {
     <div className={styles.animal_details_div}>
       {/* <h2>Details for {animalName.toUpperCase()}</h2>
       <p>This is a {animalName}, which is part of the {animalType} group.</p> */}
-      {animalArray.filter(animal => animal.name.toLowerCase() === animalName.toLowerCase()).map(animal => <AnimalDescription displayContent={animal} expanded={isexpanded} /> )}
+      {animalArray.filter(animal => animal.name.toLowerCase() === animalName.toLowerCase()).map((animal,index) => <AnimalDescription key={index} displayContent={animal} expanded={isexpanded} /> )}
     </div>
   );
 };

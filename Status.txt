@@ -9,3 +9,10 @@ need to fix welcome message for all page
 read omniway  and fix the AnimalDescription on only home & animal , on final page create seperate component without Curious to know more button
 
 
+22-04
+1. style page alignment for "animal"(groupname) page - done
+2. on page load welcome text should be present (home - done, groupName - done) = done
+3. overall styling (do minimal)
+4. on clicking an animal welcome page shold appear
+5.redesigning based on the main content logic given
+6.close button should appear and it should navigate to previous page(on Animal Details Page)

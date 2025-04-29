@@ -2,9 +2,33 @@
     display: flex;
     justify-content: space-around;
     padding: 16px;
+    background: rgba(86, 85, 85, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(86, 85, 85, 0.58);
 }
 
 .menuItem{
     text-decoration: none;
-    color:blueviolet;
+    color: #fac35e;   
+    font-size: 1.5rem;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.menuItem:hover{
+    background-color: wheat;
+    max-width: max-content;
+    color: brown;
+}
+
+.active{
+    background-color: #0cb19b;
+}
+
+@media screen and (max-width: 600px){
+    .menuItem{
+        font-size: 1rem;
+    }
 }

@@ -1,0 +1,33 @@
+.popup_container {
+  background-color:  rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(20px);
+  color: rgb(202, 184, 184);
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  height: 70vh;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 8px;
+  display: flex;
+  justify-content: right;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: fit-content;
+}
+
+.button:hover {
+  background-color: #305532;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}

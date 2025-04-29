@@ -6,8 +6,8 @@ const Navigation = () => {
 
     return(
         <div className={styles.nav_menu}>
-            <NavLink  to="/" className={styles.menuItem}> Home</NavLink>
-            {groupNames.map(group => (<NavLink to={`/${group.toLowerCase()}`}  className={styles.menuItem}>{group}</NavLink>))}
+            <NavLink  to="/" className={ ({isActive}) => isActive? `${styles.active} ${styles.menuItem}`:styles.menuItem}> Home</NavLink>
+            {groupNames.map((group,index) => (<NavLink to={`/${group.toLowerCase()}`} key={index} className={ ({isActive}) => isActive? `${styles.active} ${styles.menuItem}`:styles.menuItem}>{group}</NavLink>))}
         </div>
     )
 }
