@@ -1,0 +1,21 @@
+Create components - Home, Animals(group pages),animalDescription(/groupName/animal Page),animalPopup Page,Layout
+Create a Layout file with Header, Outlet(for main content area) and Footer
+Create Routes for Home, Animal group and Individual Animal Page
+
+Home page 
+    Add a Navigation component 
+    create 3 states
+    -> displayContent- if an animal is clicked or not
+    -> isexpanded -to check if the Read more button is clicked 
+    -> animalPopup - to check if the Animal Detail Popup is clicked
+
+In the Animal Page(Group Page)
+    -> showDescription- if an animal is clicked or not, AnimalDescription should appear
+    -> isexpanded -to check if the Read more button is clicked 
+    -> animalDetails - to check if the Animal Detail Popup is clicked, AnimalDetailPopup component should be loaded
+
+Animal Description Content
+    add image, name,food,description (check if is more than 200) and display Read more button. on click -> Animal Detail Popup should appear
+
+AnimalDetailPopup
+    add name,close button, image, lifespan, food, length, weight, place ,description, groupname 

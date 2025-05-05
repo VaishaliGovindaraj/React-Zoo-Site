@@ -15,6 +15,7 @@ const AnimalDetailPopup = ({ displayContent, closePopup }) => {
                 <div>Length: {displayContent.length}</div>
                 <div>Weight: {displayContent.weight}</div>
                 <div>Place: {displayContent.place}</div>
+                <div className={styles.description}>Description: {displayContent.description}</div>
                 <div>GroupName: {displayContent.group}</div>
             </div>
            

@@ -1,6 +1,6 @@
 .popup_container {
   background-color:  rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(200px);
   color: rgb(202, 184, 184);
   font-weight: bold;
   width: 100%;
@@ -37,6 +37,11 @@
   justify-content: center;
   align-items: center;
   margin: 16px;
+}
+
+.description{
+  width: 60%;
+  padding: 8px;
 }
 
 .button {
