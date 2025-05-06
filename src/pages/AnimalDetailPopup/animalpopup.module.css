@@ -14,7 +14,7 @@
   font-size:1.25rem;
   flex-grow: 1;
   z-index: 10;
-  overflow: scroll;
+  
 }
 
 .animal_image{
@@ -71,6 +71,7 @@
 
 @media screen and (max-width: 600px){
   .popup_container{
-    min-height: 60vh;
+    height: 100%;
+    overflow: scroll;
   }
 }
